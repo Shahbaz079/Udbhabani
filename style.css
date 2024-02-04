@@ -120,36 +120,89 @@ h1 .char1{
   color: var(--colorG);
 }
 .main-container{
-  margin-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-
+  position: relative;
+  margin-top: 100px;
+  
+  
+ 
 }
 .econtainer{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  min-width: 300px;
-  max-width: 500px;
+  
+  width: 40vw;
   border: 2px solid var(--colorB);
   border-radius: 30px;
   margin-left: 5% ;
   margin-right: 5%;
   margin-bottom: 5%;
   box-shadow: 0px 5px 10px var(--colorG);
+  position: absolute;
+   height: 50vh;
 }
 
+.main-container .a{
+  
+  top: 0;
+ 
+  z-index: 5;
+ 
+}
+.main-container .b{
+  
+  
+top:100vh;
+
+z-index: 10;
+}
+.main-container .c{
+  
+  
+  top: 200vh;
+  
+  z-index: 15;
+}
+
+  .main-container .d{
+
+  
+    top: 300vh;
+    
+    z-index: 20;
+    }
+
+    .main-container .e{
+      
+  
+      top: 400vh;
+      
+      z-index: 25;
+
+      }
+
+      .main-container .f{
+        top: 500vh;
+       
+        z-index: 30;
+        }
+
+.a , .c ,.e {
+  left: 10vw;
+}
+
+.b, .d , .f{
+  right: 10vw;
+}
 .econtainer .img{
  
-  width: 90%;
+ /* width: 40vw;
   height: 400px;
    background-image: url(images/sketch-modern-building.jpg);
   background-position: right;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;*/
   
 }
 
@@ -164,9 +217,13 @@ h1 .char1{
 }
 
 /*event section ends*/
-.sponsors{
+.sponsorsPage{
+position: absolute;
   color: #fff;
+  top: 330vh;
+  z-index: 50;
   
+
 }
 
 .list{

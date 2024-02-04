@@ -80,3 +80,28 @@ gsap.fromTo(".four",{
   repeatDelay:3
 }
 )
+
+let ecard1=document.querySelector(".a");
+let ecard2=document.querySelector(".b");
+let ecard3=document.querySelector(".c");
+let ecard4=document.querySelector(".d");
+let ecard5=document.querySelector(".e");
+let ecard6=document.querySelector(".f");
+
+let eventPage=document.querySelector(".event-discrip");
+window.addEventListener("scroll",(e)=>{
+  let value=window.scrollY;
+  ecard1.style.top=0-value*0.02+'vh';
+
+  ecard2.style.top=100-value*0.08+'vh';
+
+  console.log(ecard3.style.top=200-value*(0.12) + 'vh');
+  ecard4.style.top=300-value*0.18+'vh';
+  ecard5.style.top=400-value*0.23+'vh';
+  ecard6.style.top=500-value*0.27+'vh';
+
+
+ // ecard1.style.top=(ecard1.style.top-value) + 'px';
+    
+  
+})
