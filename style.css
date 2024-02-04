@@ -216,11 +216,11 @@ z-index: 10;
         }
 
 .a , .c ,.e {
-  left: 10vw;
+  left: 5vw;
 }
 
 .b, .d , .f{
-  right: 10vw;
+  right: 5vw;
 }
 .econtainer .img{
  

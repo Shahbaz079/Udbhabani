@@ -13,19 +13,53 @@
   nav ul li a{
     font-size: 0.8rem;
   }
+  nav ul .aboutUs , nav ul .sponsors{
+    display: none;
+  }
   .socce , .presents , .event-card{
     font-size: 1rem;
   }
   .title{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    
   }
   .econtainer{
     width: 50vw;
     height: 60vh;
 
   }
-  .a , .b ,.c , .d , .e , .f{
-    left: 25vw;
-    right: 25vw;
+  .a , .c ,.e {
+    left: 0vw;
+  }
+  
+  .b, .d , .f{
+    right: 0vw;
+  }
+  #landingPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #sponsorsPage{
+    margin: 1rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .spon-container{
+    font-size: 0.8rem;
+    margin-left: 2vw;
+  }
+
+  .spon-container .simg{
+    width: 70px;
+    height: 70px;
+  }
+  .footContainer{
+    padding: 4vh 0;
+  }
+  footdivs{
+    margin: 2vh 4vw;
+    font-size: 0.8rem;
   }
 }
