@@ -1,0 +1,31 @@
+/*responsive*/
+@media only screen and (max-width:650px){
+
+  body{
+    width:100vw;
+    overflow-x: hidden;
+    font-size: 0.8rem;
+
+  }
+  nav{
+    font-size: 0.8rem;
+  }
+  nav ul li a{
+    font-size: 0.8rem;
+  }
+  .socce , .presents , .event-card{
+    font-size: 1rem;
+  }
+  .title{
+    font-size: 1.2rem;
+  }
+  .econtainer{
+    width: 50vw;
+    height: 60vh;
+
+  }
+  .a , .b ,.c , .d , .e , .f{
+    left: 25vw;
+    right: 25vw;
+  }
+}
