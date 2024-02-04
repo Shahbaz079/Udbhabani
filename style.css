@@ -16,6 +16,8 @@
 
 body{
   background-color: #000;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 nav{
   color:#fff;
@@ -218,11 +220,13 @@ z-index: 10;
 
 /*event section ends*/
 .sponsorsPage{
-position: absolute;
-  color: #fff;
-  top: 330vh;
+  margin-left: 4rem;
+position: relative;
+  color: var(--colorG);
+  top: 155vh;
   z-index: 50;
-  
+  font-size: 2.5rem;
+  font-weight: 500;
 
 }
 
@@ -232,7 +236,11 @@ position: absolute;
 }
 
 .spon-container {
-  margin-left: 40px;
+  font-size: 1.5rem;
+  margin-left: 10vw;
+  color: var(--colorB);
+  margin-top: 4vh;
+
 }
 
 .spon-container .simg{
@@ -243,4 +251,33 @@ background-position: center;
 background-size: cover;
 margin-bottom: 10px;
 border-radius: 20px;
+}
+
+/*footer starts*/
+footer{
+  width: 100vw;
+  position: relative;
+  top: 170vh;
+  left: 0;
+  right: 0;
+  background-color:rgb(34, 37, 82);
+}
+.footContainer{
+  padding: 10vh 0;
+  max-width:100vw ;
+display: flex;
+flex-wrap: wrap;
+
+}
+.footdivs{
+  margin: 2vh 5vw;
+  font-size: 1.5rem;
+}
+
+.footdivs ul{
+  list-style: none;
+}
+
+.footdivs ul li a{
+  text-decoration: none;
 }

@@ -95,10 +95,10 @@ window.addEventListener("scroll",(e)=>{
 
   ecard2.style.top=100-value*0.08+'vh';
 
-  console.log(ecard3.style.top=200-value*(0.12) + 'vh');
-  ecard4.style.top=300-value*0.18+'vh';
-  ecard5.style.top=400-value*0.23+'vh';
-  ecard6.style.top=500-value*0.27+'vh';
+  ecard3.style.top=200-value*(0.14) + 'vh';
+  ecard4.style.top=300-value*0.2+'vh';
+  ecard5.style.top=400-value*0.26+'vh';
+  ecard6.style.top=500-value*0.32+'vh';
 
 
  // ecard1.style.top=(ecard1.style.top-value) + 'px';
